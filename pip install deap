@@ -1,0 +1,28 @@
+I get the following message when installing the pip install deap.
+
+
+
+Collecting deap
+  Using cached deap-1.3.1.tar.gz (1.1 MB)
+  Preparing metadata (setup.py) ... error
+  error: subprocess-exited-with-error
+
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [1 lines of output]
+      error in deap setup command: use_2to3 is invalid.
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+
+
+
+Can anyone guide me????
